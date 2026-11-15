@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bizim Anılarımız & Özel Günümüz</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Arka Plan Müzik Çalar -->
+    <div class="music-player">
+        <button id="musicToggle">🎵 Müziği Başlat</button>
+        <audio id="bgMusic" loop src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+    </div>
+
+    <div class="container">
+        <!-- Karşılama Kartı -->
+        <header class="header-card">
+            <h1 class="main-title">İyi Ki Varsın ❤️</h1>
+            <p class="subtitle">Birlikte Geçen Her An Çok Değerli...</p>
+        </header>
+
+        <!-- Geri Sayım Sayacı -->
+        <section class="countdown-section">
+            <h2>Birlikte Geçen Zaman</h2>
+            <div id="timer" class="timer-grid">
+                <div class="time-box"><span id="days">00</span><p>Gün</p></div>
+                <div class="time-box"><span id="hours">00</span><p>Saat</p></div>
+                <div class="time-box"><span id="minutes">00</span><p>Dakika</p></div>
+                <div class="time-box"><span id="seconds">00</span><p>Saniye</p></div>
+            </div>
+        </section>
+
+        <!-- Fotoğraf Galerisi -->
+        <section class="gallery-section">
+            <h2>En Özel Anlarımız</h2>
+            <div class="gallery-grid">
+                <div class="photo-card">
+                    <img src="https://picsum.photos/400/300?random=1" alt="Anı 1">
+                    <p class="photo-caption">İlk Buluşmamız 🌸</p>
+                </div>
+                <div class="photo-card">
+                    <img src="https://picsum.photos/400/300?random=2" alt="Anı 2">
+                    <p class="photo-caption">Unutulmaz Bir Gün ✨</p>
+                </div>
+                <div class="photo-card">
+                    <img src="https://picsum.photos/400/300?random=3" alt="Anı 3">
+                    <p class="photo-caption">Gülümsemenin En Güzel Hali 😊</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Özel Not Kartı -->
+        <section class="message-section">
+            <div class="letter-card">
+                <h3>Sana Bir Notum Var 💌</h3>
+                <p>
+                    Seninle geçen her gün, hayatıma güzellik ve anlam katıyor. Birlikte daha bir sürü anı biriktirmek ve her yeni güne seninle uyanmak dileğiyle...
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
